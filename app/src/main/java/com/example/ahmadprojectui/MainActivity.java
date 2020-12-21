@@ -14,6 +14,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     login=findViewById(R.id.button10);
+    signup=findViewById(R.id.button11);
+        signup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(MainActivity.this,SignUp.class);
+                startActivity(i);
+            }
+        });
      login.setOnClickListener(new View.OnClickListener() {
          @Override
          public void onClick(View v) {
@@ -21,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
              startActivity(i);
          }
      });
+
+
     }
 
 }
