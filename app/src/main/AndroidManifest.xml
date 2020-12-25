@@ -26,6 +26,15 @@
         <activity android:name=".Home">
 
         </activity>
+        <activity android:name=".Profilep">
+
+        </activity>
+        <activity android:name=".ContactUs">
+
+        </activity>
+        <activity android:name=".Contactcall">
+
+        </activity>
     </application>
 
 </manifest>
