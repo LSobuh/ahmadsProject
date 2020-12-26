@@ -35,6 +35,9 @@
         <activity android:name=".Contactcall">
 
         </activity>
+        <activity android:name=".guest">
+
+        </activity>
     </application>
 
 </manifest>
