@@ -8,12 +8,28 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Home extends AppCompatActivity {
-    Button login ,contactuss,guest;
+    Button Profile ,contactuss,StudyPlanbtn,Colleges;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.homepage);
+        Colleges=findViewById(R.id.college);
+        Colleges.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(Home.this,Colleges.class);
+                startActivity(i);
+            }
+        });
+        StudyPlanbtn=findViewById(R.id.StudyPlaneb);
+        StudyPlanbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(Home.this,StudyPlan.class);
+                startActivity(i);
+            }
+        });
         contactuss=findViewById(R.id.button8);
         contactuss.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -22,12 +38,12 @@ public class Home extends AppCompatActivity {
                 startActivity(i);
             }
         });
-login=findViewById(R.id.button9);
-login.setOnClickListener(new View.OnClickListener() {
+          Profile=findViewById(R.id.button9);
+          Profile.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View v) {
-        Intent i=new Intent(Home.this,Profilep.class);
-        startActivity(i);
+          Intent i=new Intent(Home.this,Profilep.class);
+          startActivity(i);
     }
 });
 

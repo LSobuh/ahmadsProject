@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backformenucollege"
+    >
+
+    <ScrollView
+
+        android:id="@+id/scrollView4"
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView23">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <Button
+                android:id="@+id/Itcolleg"
+                android:layout_width="427dp"
+                android:layout_height="146dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="0dp"
+                android:background="@drawable/bckit"
+                android:paddingLeft="120dp"
+                android:paddingRight="90dp"
+                android:text="Faculty of Engineering and Technology"
+                android:textColor="@android:color/black"
+                android:textIsSelectable="true"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:id="@+id/FacultyofLaw"
+                android:layout_width="427dp"
+                android:layout_height="146dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="0dp"
+                android:background="@drawable/law"
+                android:paddingLeft="120dp"
+                android:paddingRight="90dp"
+                android:text="Faculty of Law"
+                android:textColor="@android:color/black"
+                android:textIsSelectable="true"
+
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:id="@+id/FacultyofBusiness"
+                android:layout_width="427dp"
+                android:layout_height="146dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="0dp"
+                android:background="@drawable/bussness"
+                android:paddingLeft="120dp"
+                android:paddingRight="90dp"
+                android:text="Faculty of Business"
+                android:textColor="@android:color/black"
+                android:textIsSelectable="true"
+
+
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:id="@+id/FacultyofArts"
+                android:layout_width="427dp"
+                android:layout_height="146dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="0dp"
+                android:background="@drawable/art"
+                android:paddingLeft="120dp"
+                android:paddingRight="90dp"
+                android:text="Faculty of Arts"
+                android:textColor="@android:color/black"
+                android:textIsSelectable="true"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:id="@+id/FacultyofPharmacy"
+                android:layout_width="427dp"
+                android:layout_height="146dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="0dp"
+                android:background="@drawable/phar"
+                android:paddingLeft="120dp"
+                android:paddingRight="90dp"
+                android:text="Faculty of Pharmacy"
+                android:textColor="@android:color/black"
+                android:textIsSelectable="true"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:id="@+id/FacultyofNursing"
+                android:layout_width="427dp"
+                android:layout_height="146dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="0dp"
+                android:background="@drawable/nurssing"
+                android:paddingLeft="120dp"
+                android:paddingRight="90dp"
+                android:text="Faculty of Nursing"
+                android:textColor="@android:color/black"
+                android:textIsSelectable="true"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:id="@+id/FacultyofScienceandInformationTechnology"
+                android:layout_width="427dp"
+                android:layout_height="146dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="0dp"
+                android:background="@drawable/informationtechnology"
+                android:paddingLeft="120dp"
+                android:paddingRight="90dp"
+                android:text="Faculty of Science and
+Information Technology"
+                android:textColor="@android:color/black"
+                android:textIsSelectable="true"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:id="@+id/FacultyofArchitectureandDesign"
+                android:layout_width="427dp"
+                android:layout_height="146dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="0dp"
+                android:background="@drawable/design"
+                android:paddingLeft="120dp"
+                android:paddingRight="90dp"
+                android:text="Faculty of Architecture
+and Design"
+                android:textColor="@android:color/black"
+                android:textIsSelectable="true"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="176dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp"
+        android:paddingLeft="20dp"
+        android:text="HOME"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/bck"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

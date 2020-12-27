@@ -51,7 +51,7 @@
 
 
             <Button
-                android:id="@+id/contactus"
+                android:id="@+id/StudyPlaneb"
                 android:layout_width="392dp"
                 android:layout_height="185dp"
                 android:layout_marginLeft="20dp"

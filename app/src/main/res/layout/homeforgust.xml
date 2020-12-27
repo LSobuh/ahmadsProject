@@ -63,7 +63,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/contactus"
+                android:id="@+id/StudyPlaneb"
                 android:layout_width="408dp"
                 android:layout_height="200dp"
                 android:layout_marginLeft="0dp"

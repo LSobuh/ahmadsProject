@@ -38,6 +38,12 @@
         <activity android:name=".guest">
 
         </activity>
+        <activity android:name=".StudyPlan">
+
+        </activity>
+        <activity android:name=".Colleges">
+
+        </activity>
     </application>
 
 </manifest>

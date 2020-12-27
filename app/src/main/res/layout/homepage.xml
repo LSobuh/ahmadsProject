@@ -64,7 +64,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/contactus"
+                android:id="@+id/StudyPlaneb"
                 android:layout_width="408dp"
                 android:layout_height="200dp"
                 android:layout_marginLeft="0dp"
@@ -124,6 +124,7 @@
         android:text="Home"
         android:textColor="#689AEF"
         android:textSize="50sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/scrollView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.58"
