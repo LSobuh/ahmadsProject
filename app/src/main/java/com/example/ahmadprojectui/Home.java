@@ -8,12 +8,20 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Home extends AppCompatActivity {
-    Button Profile ,contactuss,StudyPlanbtn,Colleges;
+    Button Profile ,contactuss,StudyPlanbtn,Colleges,cllculater;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.homepage);
+        cllculater=findViewById(R.id.loginbtn);
+        cllculater.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(Home.this,Callculater.class);
+                startActivity(i);
+            }
+        });
         Colleges=findViewById(R.id.college);
         Colleges.setOnClickListener(new View.OnClickListener() {
             @Override
