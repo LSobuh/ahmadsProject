@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:id="@+id/scrollView7"
+        android:layout_width="413dp"
+        android:layout_height="283dp"
+        android:backgroundTint="#0D2C61"
+        app:layout_constraintBottom_toTopOf="@+id/textView25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView26">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="281dp"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:id="@+id/vone"
+                android:layout_width="372dp"
+                android:layout_height="111dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/simestersbck"
+                android:paddingLeft="10dp"
+                android:paddingTop="40dp"
+                android:paddingRight="10dp"
+                android:text="Introduction to Information Technology"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="20dp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/vtwo"
+                android:layout_width="372dp"
+                android:layout_height="111dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/simestersbck"
+                android:paddingLeft="10dp"
+                android:paddingTop="40dp"
+                android:paddingRight="10dp"
+                android:text="Principles of Mathematics
+ and Statistics"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="20dp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/vthree"
+                android:layout_width="372dp"
+                android:layout_height="111dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/simestersbck"
+                android:paddingLeft="10dp"
+                android:paddingTop="40dp"
+                android:paddingRight="10dp"
+                android:text="Arabic Language (1)"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="20dp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/vfour"
+                android:layout_width="372dp"
+                android:layout_height="111dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/simestersbck"
+                android:paddingLeft="10dp"
+                android:paddingTop="40dp"
+                android:paddingRight="10dp"
+                android:text="National Education"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="20dp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/vfive"
+                android:layout_width="372dp"
+                android:layout_height="111dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/simestersbck"
+                android:paddingLeft="10dp"
+                android:paddingTop="40dp"
+                android:paddingRight="10dp"
+                android:text="Life skills"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="20dp"
+                android:textStyle="normal|bold" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/scrollView8"
+        android:layout_width="411dp"
+        android:layout_height="269dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="560dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/vones"
+                android:layout_width="372dp"
+                android:layout_height="111dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/simestersbck"
+                android:paddingLeft="10dp"
+                android:paddingTop="40dp"
+                android:paddingRight="10dp"
+                android:text="Programming principles"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="20dp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/vtwos"
+                android:layout_width="372dp"
+                android:layout_height="111dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/simestersbck"
+                android:paddingLeft="10dp"
+                android:paddingTop="40dp"
+                android:paddingRight="10dp"
+                android:text="Professional skills for science colleges"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="20dp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/vthrees"
+                android:layout_width="372dp"
+                android:layout_height="111dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/simestersbck"
+                android:paddingLeft="10dp"
+                android:paddingTop="40dp"
+                android:paddingRight="10dp"
+                android:text="Discrete Mathematics"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="20dp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/vfours"
+                android:layout_width="372dp"
+                android:layout_height="111dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/simestersbck"
+                android:paddingLeft="10dp"
+                android:paddingTop="40dp"
+                android:paddingRight="10dp"
+                android:text="Military science"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="20dp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/vfives"
+                android:layout_width="372dp"
+                android:layout_height="111dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/simestersbck"
+                android:paddingLeft="10dp"
+                android:paddingTop="40dp"
+                android:paddingRight="10dp"
+                android:text="English Language (1)"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="20dp"
+                android:textStyle="normal|bold" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="416dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/bcksimesters"
+        android:text="simester 1"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="50dp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="409dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/bcksimesters"
+        android:text="simester 2"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="50dp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView7" />
+
+    <Button
+        android:id="@+id/bcksim"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="312dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/bcksim"
+        app:layout_constraintBottom_toTopOf="@+id/textView26"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="218dp"
+        android:layout_height="52dp"
+        android:text="First Year"
+        android:textAlignment="center"
+        android:textColor="#49AAEE"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView26"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toEndOf="@+id/bcksim"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.563" />
+</androidx.constraintlayout.widget.ConstraintLayout>

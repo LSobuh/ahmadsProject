@@ -7,6 +7,18 @@
     android:layout_height="match_parent">
 
 
+    <Button
+        android:id="@+id/bcksim2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="11dp"
+        android:background="@drawable/bcksim"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.013"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView22" />
+
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="406dp"
@@ -28,7 +40,7 @@
 
             <Button
 
-                android:id="@+id/loginbtn"
+                android:id="@+id/Firstbtn"
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
                 android:layout_marginLeft="0dp"
@@ -43,7 +55,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/map"
+                android:id="@+id/secund"
                 android:layout_width="408dp"
                 android:layout_height="300dp"
                 android:layout_marginLeft="0dp"
@@ -58,7 +70,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/studyplan"
+                android:id="@+id/third"
                 android:layout_width="408dp"
                 android:layout_height="300dp"
                 android:layout_marginLeft="0dp"
@@ -74,7 +86,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/college"
+                android:id="@+id/fourth"
                 android:layout_width="408dp"
                 android:layout_height="300dp"
                 android:layout_marginLeft="0dp"
@@ -89,7 +101,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/contactUss"
+                android:id="@+id/fifth"
                 android:layout_width="408dp"
                 android:layout_height="300dp"
                 android:layout_marginTop="0dp"
